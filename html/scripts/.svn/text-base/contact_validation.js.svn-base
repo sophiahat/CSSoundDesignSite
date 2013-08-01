@@ -1,0 +1,9 @@
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+
+function refreshCaptcha()
+{
+	var img = document.images['captchaimg'];
+	img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000;
+}

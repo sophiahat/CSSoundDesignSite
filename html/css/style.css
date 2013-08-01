@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+
+:focus { outline: 0; }
+ol, ul { list-style: none; }
+
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+strong { font-weight: bold; }
+
+body { background: #0e0f0e url('../images/bg.gif') repeat-x bottom; color: #aaa; font: normal 68.75% Arial, Helvetica, sans-serif; }
+
+a { color: #aaa; text-decoration: underline; }
+a:hover { color: #ffa227; text-decoration: none; }
+
+#container { width: 790px; margin: 0; padding: 0; margin: 0 auto; background: transparent url('../images/guitar.jpg') no-repeat 450px 0px; }
+#container-nopic { width: 790px; margin: 0; padding: 0; margin: 0 auto; background: transparent; }
+
+/*-------------------- HEADER --------------------*/
+
+#header { clear: both; background: transparent; height: 80px; text-align: right; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Trebuchet MS", Arial, sans-serif; }
+h1 { display: block; font-size: 300%; font-weight: bold; padding: 0; text-align: right; margin: 20px 365px 0 0; color: #ffa227; }
+h1 span { color: #fff; display: inline; font-size: 100%; font-family: Verdana, sans-serif; }
+h1:first-letter, h2, #sidebar h3 { color: #b6da6e; }
+h2 { font-size: 200%; font-weight: bold; }
+h3 { font-size: 150%; }
+
+#playlist { 
+	margin-left: 450px; 
+	height: 333px;
+	width: 312px;
+	overflow-y: auto;
+	overflow-x: hidden; 
+	padding: 4px 10px 12px 10px;
+	background-color: #515C22;
+}
+
+#playlist a {
+	display:block;
+	width:280px;
+	height:90px;
+	padding:7px;
+	background-color:#13120A;
+	border:1px solid #A38E00;
+	font:11px "bitstream vera sans", "lucida grande",verdana;
+	text-decoration:none;
+	margin-top:7px;
+	color:#666;
+}
+
+/* different states of a playlist entry */
+#playlist a:hover {	background-color:#C7DCA1; }
+#playlist a:hover strong { color:#13120A; }
+#playlist a.progress { background-color:#9EB04A; }
+#playlist a.playing {	border:1px solid #666; background-color:#8c9a28; color:#837A26; }
+#playlist a.paused { border:1px solid #666; background-color:#9EB04A; color:#837A26; }
+ 
+/* elements inside playlist entry */
+#playlist a img {	border:0;	float:left; margin-right:10px; } 
+#playlist a strong { color:#FFA227; padding-bottom:5px; }
+ 
+#playlist a em {
+	border:0;	
+	float:left;
+	margin-right:10px;
+	background:url(/img/demos/clock.gif) no-repeat 0 50%;
+	padding-left:20px;
+	color:#7a110d;
+	font-style:normal;
+	margin-top:10px;
+	
+}
+
+/*--------------------SIDEBAR --------------------*/
+
+#sidebar { float: right; width: 340px; margin: 400px 0 0 0; }
+#sidebar h3 { font-weight: bold; }
+
+#nav { float: right; text-align: left; width: 150px; padding: 0; }
+#nav li { display: block; margin: 0; padding: 0px; font-weight: bold;}
+#nav li a { font: bold 150% "Trebuchet MS", sans-serif; display: block; text-decoration: none; padding: 0 0 5px 0; }
+#nav li a:first-letter { color: #ffa227; }
+
+#current { color: #ffa227; }
+
+/*--------------------SHOWS --------------------*/
+
+#shows { float: right; width: 170px; margin-right: 10px; }
+#shows ul { margin-bottom: 20px; }
+#shows ul li { padding: 10px 0 10px 0; }
+
+form { background: transparent; width: 250px; margin-top: 0; padding-top: 1em; padding-left: 75px;}
+fieldset { border: 0; padding: 0; margin: 0; width: 170px; }
+input, .button  { width: 100px; font-size: 90%; }
+label, input { float: left; display: block; margin-bottom: 10px; }
+label { width: 200px; text-align: left; padding-right: 0px; font-size: 120%; font-weight: bold; }
+input { width: 252px; border: 1px solid #fff; }
+br { clear: both; }
+
+/*-------------------- MAIN CONTENT --------------------*/
+
+#main { background: transparent; float: left; width: 425px; padding: 0; margin: 0; }
+#main h3 { font-size: 90%; margin-bottom: 20px; font-weight: normal; }
+#main p { text-align: justify; line-height: 1.7em; font-size: 100%; }
+#main ul { list-style-image: url('../images/arrow.gif'); list-style-position: inside; margin-top: 10px; }
+
+.divider { clear: both; background: transparent url('../images/divider.gif') no-repeat; height: 3px; margin: 15px 0; background-position:center; }
+.btn { width: 100px; color: #aaa; background: #0e0f0e; font-weight: bold; border: 1px solid #ffa227; padding: 2px; }
+
+img.alignright { padding: 4px; margin: 0 0 2px 15px; display: inline; border: 0; }
+img.alignleft { padding: 4px; margin: 0 15px 2px 0; display: inline; border: 0; }
+img.centered { display: block; margin-left: auto; margin-right: auto; border: 0; }
+.alignright { float: right; }
+.alignleft { float: left }
+
+#captchaimg { margin-top: 20px; }
+
+#player { display: block; width: 425px; height: 300px; border:1px solid #A38E00;
+}
+
+a img.alignleft, a img.alignright, a img.centered { border: 3px solid #333; }
+a:hover img.alignleft, a img.alignright, a img.centered { border: 3px solid #ffa227; }
+
+.err { color: red;	}
+
+/*-------------------- FOOTER --------------------*/
+
+#footer { clear: both; text-align: center; }
+#footer p { font-size: 90%; padding: 20px 0;  }
