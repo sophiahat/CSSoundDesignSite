@@ -1,17 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
 <head>
-<!--
-Design by Arnaud Valle
-http://arnaudvalle.free.fr/
-
-Licensed under the Creative Commons Attribution 3.0 Unported (http://creativecommons.org/licenses/by/3.0/)
-You are free to copy, distribute, adapt the work, but you must keep a link of some sort to me (in the footer or source).
-
-Title : GUITARhero
-Version: 1.0
-Released: 20070924
--->
   <meta http-equiv="Content-Type"
  content="text/html; charset=ISO-8859-1">
   <meta name="description" content="description">
