@@ -17,8 +17,7 @@ h1 { display: block; font-size: 300%; font-weight: bold; padding: 0; text-align:
 h1 span { color: #fff; display: inline; font-size: 100%; font-family: Verdana, sans-serif; }
 h1:first-letter, h2 { color: #b6da6e; }
 h2 { font-size: 200%; font-weight: bold; margin-bottom: 10px; }
-h3 { font-size: 150%; }
-h4 { font-size: 150%; color: #b6da6e;}
+h3 { font-size: 150%; color: #a38e00;}
 
 /*-------------------- HEADER --------------------*/
 
@@ -105,7 +104,6 @@ br { clear: both; }
 /*-------------------- MAIN CONTENT --------------------*/
 
 #main { background: transparent; float: left; width: 425px; padding: 0; margin: 0; }
-#main h3 { font-size: 90%; margin-bottom: 20px; font-weight: normal; }
 #main ul { list-style-image: url('../images/arrow.gif'); list-style-position: inside; margin-top: 10px; }
 
 .divider { clear: both; background: transparent url('../images/divider.gif') no-repeat; height: 3px; margin: 15px 0; background-position:center; }
@@ -128,6 +126,8 @@ a:hover img.alignleft, a img.alignright, a img.centered { border: 3px solid #ffa
 
 iframe { width: 425px; height: 300px; }
 iframe { border:1px solid #A38E00; margin-bottom: 10px;}
+
+.subtitle { font-size: 125%; color: #b6da6e;}
 
 /*-------------------- FOOTER --------------------*/
 
